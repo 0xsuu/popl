@@ -1,10 +1,10 @@
-JavaPathfinder v6.0 - (C) RIACS/NASA Ames Research Center
+JavaPathfinder v6.0 (rev 778) - (C) RIACS/NASA Ames Research Center
 
 
 ====================================================== system under test
 application: Test.java
 
-====================================================== search started: 25/02/16 07:14
+====================================================== search started: 25/02/16 07:19
 Final value: 192
 Final value: 192
 Final value: 37
@@ -419,3 +419,27 @@ Final value: 39
 Final value: 77
 Final value: 75
 Final value: 71
+Final value: 94
+Final value: 47
+Final value: 93
+Final value: 91
+Final value: 87
+Final value: 79
+Final value: 3
+Final value: 4
+Final value: 63
+
+====================================================== results
+no errors detected
+
+====================================================== statistics
+elapsed time:       00:01:25
+states:             new=330868, visited=456808, backtracked=787676, end=423
+search:             maxDepth=94, constraints hit=0
+choice generators:  thread=330868 (signal=0, lock=1, shared ref=253008), data=0
+heap:               new=6168, released=11663, max live=623, gc-cycles=787580
+instructions:       44069291
+max memory:         240MB
+loaded code:        classes=82, methods=1213
+
+====================================================== search finished: 25/02/16 07:21
