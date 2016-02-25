@@ -22,7 +22,7 @@ public class mVariable<T> implements aMonoVariable<T>
 			//Occupied, blocking
 		}
 		
-		//Not occupied, import data
+		//Not occupied, import(or override) data
 		storage = val;
 		occupied = true; //Set semaphore to occupied
 	}
@@ -36,10 +36,8 @@ public class mVariable<T> implements aMonoVariable<T>
 		}
 		
 		//Occupied, consume it
-		T tmp = storage;
-		storage = null;
 		occupied = false;
 		
-		return tmp;
+		return storage;
 	}
 }

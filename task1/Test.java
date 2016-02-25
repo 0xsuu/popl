@@ -27,10 +27,18 @@ public class Test extends Thread
 	
 	public void run()
 	{
-		int tmp = testM0.consume();
-		System.out.println(tmp);
-		testM0.becomes(ThreadP.calculate(tmp));
+		//Single test
+		//int tmp = testM0.consume();
+		//testM0.becomes(ThreadP.calculate(tmp));
+		
+		//Multiple test: 5
+		for (int i = 0; i < 5; i ++)
+		{
+			int tmp = testM0.consume();
+			testM0.becomes(ThreadP.calculate(tmp));
+		}
 	}
+	
 	public static void main(String args[])
 	{
 		//
