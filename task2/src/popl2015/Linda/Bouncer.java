@@ -21,8 +21,10 @@ public class Bouncer extends Thread
 		MonoVariable<aTuple> result = new MonoVariable<aTuple>(); 
 		Tuple tuple;
 		Template templ;
+		
 		//
         System.out.println(greeting + " started");
+
         // Wait until the ’go’ tuple is available:
 		templ = new Template();
 		templ.add(new TypedValue(TypedValue.Type.String, "Go")); 

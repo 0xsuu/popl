@@ -1,0 +1,22 @@
+<project default="compile">
+	<target name="clean">
+		<delete dir="build"/>
+	</target>
+	
+	<target name="compile">
+		<mkdir dir="build/classes"/>
+		<javac srcdir="src" destdir="build/classes" includeantruntime="false"/>
+	</target>
+	
+	<target name="run">
+		<exec executable="./task2"/>
+	</target>
+	
+	<target name="jpf">
+		<exec executable="./task2Jpf"/>
+	</target>
+	
+	<target name="go" depends="compile,run">
+	</target>
+	
+</project>

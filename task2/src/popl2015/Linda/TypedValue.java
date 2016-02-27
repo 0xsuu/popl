@@ -14,16 +14,21 @@ public class TypedValue
 	public Type type() { return type; }
 
 	public boolean equals(Object o)
-	{ //Standard Oject.equals() semantics
+	{ //Standard Object.equals() semantics
 		if(!(o instanceof TypedValue))
 		{
-			//??? Code to be inserted
 			return false;
 		}
 		else
 		{
-			//??? Code to be inserted
-			return true;
+			if (((TypedValue)o).type == this.type || ((TypedValue)o).value == this.value) 
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
 	}
 

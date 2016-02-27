@@ -1,0 +1,22 @@
+
+++++++++++++++++++
++     Task 2     +
+++++++++++++++++++
+
+Compile by run:
+    $ ant
+or
+    $ ant compile
+
+Run by run:
+    $ ./runTask2
+or
+    $ ant run
+
+Compile and run by run:
+    $ ant go
+
+Test with jpf by run:
+    $ ant jpf
+
+If Apache ant is not installed, please find source code in ./src/ and compiled classes in ./build/classes

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd ./build/classes
+java popl2015.Linda.BouncerTest
+cd ../../

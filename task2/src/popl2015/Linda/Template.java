@@ -7,17 +7,19 @@ public class Template implements aTemplate
 {
 	private List<TypedValue> elements;
 	
-	public Template()
-	{
-		//elements = //??? initialisation
-	}
-	
+	public Template(){ elements = new Vector<TypedValue>(); }
 	public Template(List<TypedValue> es) { elements = es; }
 	
 	public boolean matches(aTuple t)
 	{
-		//??? implmentation code
-		return true;
+		if (t instanceof aTemplate)
+		{
+			return true;
+		}
+		else
+		{
+			return false;//
+		}
 	}
 	
 	public TypedValue nth(int n)
