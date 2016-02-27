@@ -21,7 +21,7 @@ public class Bouncer extends Thread
 		MonoVariable<aTuple> result = new MonoVariable<aTuple>(); 
 		Tuple tuple;
 		Template templ;
-		
+
 		//
         System.out.println(greeting + " started");
 
@@ -40,7 +40,7 @@ public class Bouncer extends Thread
 			templ = new Template();
 			templ.add(new TypedValue(TypedValue.Type.String, response)); 
 			tuplespace.in(templ, result);
-			// Show prgress
+			// Show progress
 			System.out.println("Got: " + result.consume() + "number " + (i+1));
 		}
 

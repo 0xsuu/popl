@@ -8,7 +8,7 @@ public class TupleSpace implements aTupleSpace
 	private Collection<aTuple> theSpace;
 	public TupleSpace()
 	{
-		theSpace = new ArrayList<aTuple>();
+		theSpace = new Vector<aTuple>();
 	}
 
 	// out(aTuple v) method
