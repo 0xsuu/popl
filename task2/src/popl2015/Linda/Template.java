@@ -18,7 +18,7 @@ public class Template implements aTemplate
 		}
 		else
 		{
-			return false;//
+			return false;
 		}
 	}
 	

@@ -64,7 +64,7 @@ public class Test extends Thread
 		//Multiple threads testing (with full code)
 		//
 		//Announcing test mono variable & initialising it
-		aMonoVariable<Integer> testM0 = new mVariable<Integer>();
+		aMonoVariable<Integer> testM0 = new MonoVariable<Integer>();
 		testM0.becomes(1);
 		
 		//Announcing 2 arithmetic

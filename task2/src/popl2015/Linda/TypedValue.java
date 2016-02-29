@@ -17,11 +17,18 @@ public class TypedValue
 	{ //Standard Object.equals() semantics
 		if(!(o instanceof TypedValue))
 		{
-			return false;
+			if (o instanceof Hole && ((Hole)o).type == this.type) 
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
 		}
 		else
 		{
-			if (((TypedValue)o).type == this.type || ((TypedValue)o).value == this.value) 
+			if (((TypedValue)o).type == this.type && ((TypedValue)o).value == this.value) 
 			{
 				return true;
 			}

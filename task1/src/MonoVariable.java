@@ -1,15 +1,16 @@
 
 //package task1;
-//import task1.aMonoVariable;
 
-public class mVariable<T> implements aMonoVariable<T>
+//Implementation of MonoVariable
+
+public class MonoVariable<T> implements aMonoVariable<T>
 {
 	private T storage;
 	private boolean occupied;
 	
 	public void becomes(T val)
 	{
-		//Valid checking
+		//Validation checking
 		if (val==null)
 		{
 			System.out.println("Input not valid, nothing changed, abort.");
