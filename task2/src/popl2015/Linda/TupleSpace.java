@@ -25,7 +25,7 @@ public class TupleSpace implements aTupleSpace
 				if (delete)
 				{
 					//Clone the tuple instance using iteration as I have NO ACCESS to the given code to add a copy initialiser
-					/*List<TypedValue> retL = new Vector<TypedValue>();
+					List<TypedValue> retL = new Vector<TypedValue>();
 					for (int j = 0; j < ti.length(); j ++) 
 					{
 						retL.add(ti.nth(j));
@@ -37,8 +37,7 @@ public class TupleSpace implements aTupleSpace
 					//Remove the old rubbish tuple in the tuple space
 					theSpace.remove(ti);
 
-					return ret;*/
-					return ti;
+					return ret;
 				}
 				else
 				{
