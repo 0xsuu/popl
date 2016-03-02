@@ -46,6 +46,7 @@ public class Bouncer extends Thread
 
 		tuple = new Tuple();
 		tuple.add(new TypedValue(TypedValue.Type.String, greeting))
-			.add(new TypedValue(TypedValue.Type.String, "done")); tuplespace.out(tuple);
+			.add(new TypedValue(TypedValue.Type.String, "done")); 
+		tuplespace.out(tuple);
 	}
 }

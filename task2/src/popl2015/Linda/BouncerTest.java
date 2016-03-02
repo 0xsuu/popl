@@ -5,9 +5,44 @@ public class BouncerTest
 {
 	public static void main(String[] args) 
 	{
+		//
+		// Single thread testing
+		//
+		/*
+		//Initialise tuple space
 		TupleSpace ts = new TupleSpace();
-		Bouncer ping = new Bouncer(ts, "Ping", "Pong", 10); 
-		Bouncer pong = new Bouncer(ts, "Pong", "Ping", 10);
+		//Result stores here
+		MonoVariable<aTuple> complete = new MonoVariable<aTuple>(); 
+
+		for (int i = 0; i < 10; i ++)
+		{
+			System.out.println("Sending Ping");
+			Tuple ping = new Tuple();
+			ping.add(new TypedValue(TypedValue.Type.String, "Ping")); 
+			ts.out(ping);
+
+			System.out.println("Make response to Ping");
+			Tuple tp = new Tuple();
+			tp.add(new TypedValue(TypedValue.Type.String, "Response"))
+			  .add(new TypedValue(TypedValue.Type.String, "Pong")); 
+			ts.out(tp);
+
+			Template pong = new Template();
+			pong.add(new Hole(TypedValue.Type.String))
+				.add(new TypedValue(TypedValue.Type.String, "Pong")); 
+			ts.in(pong, complete);
+
+			System.out.println("Comfirm received: "+complete.consume());
+		}
+		*/
+
+		//
+		// Multi-thread testing
+		//
+
+		TupleSpace ts = new TupleSpace();
+		Bouncer ping = new Bouncer(ts, "Ping", "Pong", 1); 
+		Bouncer pong = new Bouncer(ts, "Pong", "Ping", 1);
 
 		//Start the bouncer processes:
 		ping.start();

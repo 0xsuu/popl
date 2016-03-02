@@ -17,24 +17,24 @@ public class TypedValue
 	{ //Standard Object.equals() semantics
 		if(!(o instanceof TypedValue))
 		{
-			if (o instanceof Hole && ((Hole)o).type == this.type) 
-			{
-				return true;
-			}
-			else
-			{
-				return false;
-			}
+			return false;
 		}
 		else
 		{
-			if (((TypedValue)o).type == this.type && ((TypedValue)o).value == this.value) 
+			if (o instanceof Hole)
 			{
-				return true;
+				return (o instanceof Hole && ((Hole)o).type == this.type);
 			}
 			else
 			{
-				return false;
+				if (((TypedValue)o).type == this.type && ((TypedValue)o).value == this.value) 
+				{
+					return true;
+				}
+				else
+				{
+					return false;
+				}
 			}
 		}
 	}

@@ -12,14 +12,22 @@ public class Template implements aTemplate
 	
 	public boolean matches(aTuple t)
 	{
-		if (t instanceof aTemplate)
-		{
-			return true;
-		}
-		else
+		//Examine tuple length
+		if (t.length() != this.length()) 
 		{
 			return false;
 		}
+
+		//Traverse this template
+		for (int i = 0; i < this.length(); i++)
+		{
+			TypedValue tSelf = this.nth(i);
+			TypedValue tArg = t.nth(i);
+
+			if (!tArg.equals(tSelf)) return false;
+		}
+
+		return true;
 	}
 	
 	public TypedValue nth(int n)
