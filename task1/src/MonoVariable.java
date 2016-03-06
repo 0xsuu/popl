@@ -8,7 +8,7 @@ public class MonoVariable<T> implements aMonoVariable<T>
 	private T storage;
 	private boolean occupied;
 	
-	public void becomes(T val)
+	public synchronized void becomes(T val)
 	{
 		//Validation checking
 		if (val==null)
@@ -17,27 +17,44 @@ public class MonoVariable<T> implements aMonoVariable<T>
 			return;
 		}
 		
-		//Occupation block
+		//Occupied, blocking
 		while (occupied)
 		{
-			//Occupied, blocking
+			try
+			{
+				wait();
+			}
+			catch(InterruptedException e)
+			{
+				e.printStackTrace();
+			}
 		}
 		
 		//Not occupied, import(or override) data
 		storage = val;
-		occupied = true; //Set semaphore to occupied
+		occupied = true; //Set to occupied
+		
+		notify();
 	}
 	
-	public T consume()
+	public synchronized T consume()
 	{
-		//Occupation block
+		//Unoccupied, blocking
 		while (!occupied)
 		{
-			//Unoccupied, blocking
+			try
+			{
+				wait();
+			}
+			catch(InterruptedException e)
+			{
+				e.printStackTrace();
+			}
 		}
 		
 		//Occupied, consume it
 		occupied = false;
+		notify();
 		
 		return storage;
 	}

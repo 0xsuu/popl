@@ -41,7 +41,7 @@ public class Bouncer extends Thread
 			templ.add(new TypedValue(TypedValue.Type.String, response)); 
 			tuplespace.in(templ, result);
 			// Show progress
-			System.out.println("Got: " + result.consume() + "number " + (i+1));
+			System.out.println("Thread "+Thread.currentThread().getId()+" Got: " + result.consume() + "number " + (i+1));
 		}
 
 		tuple = new Tuple();

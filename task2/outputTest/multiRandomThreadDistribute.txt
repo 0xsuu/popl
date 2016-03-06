@@ -1,0 +1,64 @@
+// 20 tests
+// Showing the non-deterministic feature of linda space 
+// 13 cases of Thread 8 first
+// 7 cases of Thread 9 first
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0
+
+Thread 8 Got 0
+Thread 9 Got 0
+
+Thread 9 Got 0
+Thread 8 Got 0

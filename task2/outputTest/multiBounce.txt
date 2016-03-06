@@ -1,0 +1,303 @@
+// 20 tests
+// Test in Assignment
+
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+Thread 9 Got: <[Pong:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main ending
+Ping started
+Pong started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 8 Got: <[Ping:String]>number 4
+<[Pong:String, done:String]>
+Main getting completion tuple 2
+Thread 9 Got: <[Pong:String]>number 4
+<[Ping:String, done:String]>
+Main ending
+Pong started
+Ping started
+Main getting completion tuple 1
+Thread 9 Got: <[Pong:String]>number 1
+Thread 8 Got: <[Ping:String]>number 1
+Thread 9 Got: <[Pong:String]>number 2
+Thread 8 Got: <[Ping:String]>number 2
+Thread 9 Got: <[Pong:String]>number 3
+Thread 8 Got: <[Ping:String]>number 3
+Thread 9 Got: <[Pong:String]>number 4
+Thread 8 Got: <[Ping:String]>number 4
+<[Ping:String, done:String]>
+Main getting completion tuple 2
+<[Pong:String, done:String]>
+Main ending
