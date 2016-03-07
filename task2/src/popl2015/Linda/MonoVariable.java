@@ -1,5 +1,5 @@
 
-//package task1;
+package popl2015.Linda;
 
 //Implementation of MonoVariable
 

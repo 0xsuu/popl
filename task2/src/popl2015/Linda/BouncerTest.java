@@ -16,11 +16,21 @@ public class BouncerTest
 		//
 		// Output: ./outputTest/singleBasic.txt
 
-		/*
+		
 		//Initialise tuple space
+		/*
 		TupleSpace ts = new TupleSpace();
 		//Result stores here
 		MonoVariable<aTuple> complete = new MonoVariable<aTuple>(); 
+
+		//
+		//Null Testing
+		//
+		//Tuple ping = new Tuple();
+		//ts.out(ping);
+		//Template pong = new Template();
+		//ts.in(pong, complete);
+		//System.out.println("Comfirm received: "+complete.consume());
 
 		for (int i = 0; i < 10; i ++)
 		{
@@ -117,7 +127,7 @@ public class BouncerTest
 		// 
 		//
 		// Output: ./outputTest/multiBounce.txt
-		/*
+		
 		TupleSpace ts = new TupleSpace();
 		Bouncer ping = new Bouncer(ts, "Ping", "Pong", 4); 
 		Bouncer pong = new Bouncer(ts, "Pong", "Ping", 4);
@@ -143,13 +153,13 @@ public class BouncerTest
 		System.out.println(complete.consume());
 		
 		System.out.println("Main ending");
-		*/
+		
 		
 		//
 		// Multiple threads access same tuple at same time
 		//
 		//
-		
+		/*
 		final TupleSpace ts = new TupleSpace();
 
 		//Two threads try to access the same tuple
@@ -185,5 +195,6 @@ public class BouncerTest
 		Tuple num = new Tuple();
 		num.add(new TypedValue(TypedValue.Type.Integer, 0));
 		ts.out(num);
+		*/
 	}
 }

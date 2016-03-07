@@ -63,7 +63,10 @@ public class TupleSpace implements aTupleSpace
 	// out(aTuple v) method
 	public void out(aTuple v)
 	{
-		theSpace.add(v);
+		synchronized(theSpace)
+		{
+			theSpace.add(v);
+		}
 	}
 	
 	// in(aTemplate t, aMonoVariable<aTuple> result) method
